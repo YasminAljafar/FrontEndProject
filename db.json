@@ -1,0 +1,46 @@
+{
+  "productList": [
+    {
+      "Name": "jenko",
+      "Category": "Inverter",
+      "Price": "200",
+      "Id": "2",
+      "Description": "ooooooooooooo",
+      "id": 2
+    },
+    {
+      "Name": "jenko",
+      "Category": "SolarPanel",
+      "Price": "200",
+      "Id": "3",
+      "Description": "mmmmmm",
+      "id": 3
+    },
+    {
+      "Name": "jenko",
+      "Category": "SolarPanel",
+      "Price": "200",
+      "Id": "1",
+      "Description": "jenko solar panel",
+      "id": 6
+    },
+    {
+      "Name": "solar2",
+      "Category": "SolarPanel",
+      "Price": "260",
+      "Id": "8",
+      "Description": "solar panel number ",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

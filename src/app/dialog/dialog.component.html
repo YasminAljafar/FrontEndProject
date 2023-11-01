@@ -1,0 +1,39 @@
+<h1 mat-dialog-title>Add Product Form</h1>
+<div mat-dialog-content>
+    <form [formGroup]="productForm">
+         <mat-form-field >
+            <mat-label>id</mat-label>
+            <input formControlName="Id" matInput>
+          </mat-form-field>
+       
+          <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input formControlName="Name" matInput>
+          </mat-form-field>
+    
+          <mat-form-field>
+            <mat-label>Category</mat-label>
+            <mat-select formControlName="Category">
+              <mat-option value="Inverter">Inverter</mat-option>
+              <mat-option value="Battary">Battary</mat-option>
+              <mat-option value="SolarPanel">Solar Panel</mat-option>
+            </mat-select>
+          </mat-form-field>
+    
+          <mat-form-field>
+            <mat-label>Price</mat-label>
+            <input formControlName="Price" matInput>
+            </mat-form-field>
+    
+          <mat-form-field>
+            <mat-label>Description</mat-label>
+            <textarea matInput formControlName="Description"></textarea>
+          </mat-form-field>
+    </form>
+      
+</div>
+<div mat-dialog-action [align]="'end'">
+<button mat-raised-button color="warn" mat-dialog-close="">Close</button>
+<button style="margin: 10px;" mat-raised-button color="primary" (click)="addProduct()">{{actionBtn}}</button>
+
+</div>
